@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
+<!--  -->
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+<!-- <meta charset="UTF-8"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -62,4 +63,112 @@
   </section>
 
 </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+  <body class="bg-secondary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Hafifa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header id="home" class="text-center p-5 bg-info">
+  <h1>Hafifa</h1>  
+    <p class="lead">I'm a passionate aspiring developer, ready to build the future with code.</p>
+    <img src="Images/self.jpg" alt="Profile Image" class="img-fluid rounded-circle" style="max-width: 200px;">
+  </header>
+
+  <section id="about" class="container py-5">
+    <h2>About Me</h2>
+    <p>I'm currently studying software engineering. I discovered my passion for programming during a short holiday in Mombasa. I enjoy solving problems and creating things that people can use. I'm also a family-oriented person and passionate about cooking.</p>
+  </section>
+
+  <section id="skills" class="bg-info">
+    <div class="container">
+      <h2>Skills</h2>
+      <h4>Technical Skills:</h4>
+      <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item">HTML/CSS</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">Python</li>
+        <li class="list-group-item">Git & GitHub</li>
+      </ul>
+
+      <h4>Non-technical Skills:</h4>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Communication</li>
+        <li class="list-group-item">Teamwork</li>
+        <li class="list-group-item">Problem-solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="container py-5">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="Images/weatherimages.jpg" class="card-img-top" alt="Weather App Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">Built using HTML, CSS, and JavaScript. This app shows real-time weather based on user location.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="Images/sample.jpg" class="card-img-top" alt="Netflix App Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Netflix App</h5>
+            <p class="card-text">Built using HTML, CSS, and JavaScript. This app allows users to stream TV shows, movies, and documentaries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-info">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
 </html>
+
+
